@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+seaborn
+python-dotenv
+langchain
+langchain-chroma
+transformers
+gradio
+notebook
+langchain_community
+sentence_transformers
