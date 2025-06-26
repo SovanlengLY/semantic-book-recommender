@@ -70,7 +70,7 @@ Enter **zero-shot classification**: with large language models, you can categori
 How do you know if a book is suspenseful, joyful, or tear-jerking?  
 We bring in *emotion detection* to enrich recommendations!
 
-- For this, we use `"j-hartmann/emotion-english-distilroberta-base"`—a model trained on Ekman’s 6 basic emotions, plus "neutral".
+- For this, we use [`"j-hartmann/emotion-english-distilroberta-base"`](https://huggingface.co/j-hartmann/emotion-english-distilroberta-base)—a model trained on Ekman’s 6 basic emotions, plus "neutral".
 - Each book’s description may span multiple sentences and express different emotions.
 - We:
   1. Split the description into sentences.
