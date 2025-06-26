@@ -59,7 +59,7 @@ We convert this into a vector and find books with similar vectors—voilà, smar
 What if you want to filter books as "Fiction" or "Non-Fiction"—but don’t have explicit labels?  
 Enter **zero-shot classification**: with large language models, you can categorize text into *any* labels you specify, even if the model never saw them during training!
 
-- We use the `"facebook/bart-large-mnli"` model from Hugging Face’s Transformers library.
+- We use the [`"facebook/bart-large-mnli"`](https://huggingface.co/facebook/bart-large-mnli) model from Hugging Face’s Transformers library.
 - By simply prompting the model with labels ("fiction", "non-fiction"), it predicts the best fit based on each book’s description.
 - This lets users easily filter or browse by type—no manual labeling required!
 
